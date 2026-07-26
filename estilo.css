@@ -156,3 +156,21 @@ li{
     height: 600px;
     padding-right: 50px;
 }
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+article{
+    width: 50%;
+    height: fit-content;
+    background-color: #D8B56A;
+    text-align: center;
+    align-items: center;
+}
+.grupo{
+    gap: 10px;
+    display: flex;
+}
