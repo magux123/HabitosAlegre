@@ -17,7 +17,6 @@ section{
 
 
 .frase{
-    width: 100%;
     min-height:100vh;
     background-image:url("fondo.png");
     background-size:cover;
@@ -29,8 +28,8 @@ section{
 .overlay{
     padding-top: 100px;
     text-align: center;
+    align-items: center;
     height: 100vh;
-    
 }
 
 nav{
@@ -96,18 +95,17 @@ li{
     opacity:.8;
 }
 
-i{  
+.frase i{  
     font-size: 50px;
     color:#F6F1E7;
 }
 
-p{
-    font-family: ;
+.frase p{
     background-color: #53006395;
     width: fit-content;
-    margin-left: 26%;
     font-size:clamp(1rem,2vw,2rem);
     color:#F6F1E7;
+    letter-spacing: 5px;
 }
 
 .titulo {
@@ -127,22 +125,34 @@ p{
 
 .informacion{
     padding-top: 50px;
-    gap: 200px;
+    gap: 50px;
     display: flex;
 }
 
 .presentacion{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     padding-left: 100px;
-    gap: 20px;
+    gap: 50px;
+}
+
+.presentacion p{
+    color: #D8B56A;
+    font-size: 36px;
+    letter-spacing: 5px;
 }
 
 .imagen{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 40%;
     height: auto;
-    padding: auto;
+    padding-right: 50px;
+}
+
+.imagen img{
+    width: 500px;
+    height: 600px;
+    padding-right: 50px;
 }
