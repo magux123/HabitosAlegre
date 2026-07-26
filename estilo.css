@@ -12,13 +12,14 @@ body{
 
 section{
     height: 100vh;
+    background-color: #000000;
 }
 
 
 .frase{
     width: 100%;
     min-height:100vh;
-    background-image:url("inicio.png");
+    background-image:url("fondo.png");
     background-size:cover;
     background-position:center;
     display:flex;
@@ -29,7 +30,7 @@ section{
     padding-top: 100px;
     text-align: center;
     height: 100vh;
-    background-color: #000000c6;
+    
 }
 
 nav{
@@ -37,7 +38,7 @@ nav{
     height: 120px;
     display: flex;
     gap: 40%;
-    background-color: #000000c6;
+    background-color: #0000004e;
 }
 
 .secciones{
@@ -50,6 +51,7 @@ nav{
 
 a{
     text-decoration: none;
+    color:#F6F1E7;  
 }
 
 a:hover{
@@ -58,20 +60,23 @@ a:hover{
 
 ul{
     font-size: 26px;
-    color: rgb(10, 0, 99);
     list-style: none;
     width: fit-content;
+    
 }
 
 li{
     width: max-content;
+    color:#F6F1E7;
+    background-color: #53006395;
 }
 
 .frase h2{
-    color:white;
+    color:#F6F1E7;
     font-family:'Allura',cursive;
     font-size:clamp(3rem,7vw,6rem);
-    margin-top:100px;
+    margin-top:265px;
+    letter-spacing: 10px;
 }
 
 .decoracion{
@@ -79,7 +84,7 @@ li{
     align-items:center;
     justify-content:center;
     gap:18px;
-    margin-bottom:35px;
+    margin-bottom:30px;
     color:white;
 }
 
@@ -91,17 +96,53 @@ li{
     opacity:.8;
 }
 
-i{
+i{  
     font-size: 50px;
-    color:rgb(139, 0, 0);
+    color:#F6F1E7;
 }
 
 p{
+    font-family: ;
+    background-color: #53006395;
+    width: fit-content;
+    margin-left: 26%;
     font-size:clamp(1rem,2vw,2rem);
-    color:rgb(255, 0, 0);
+    color:#F6F1E7;
 }
 
 .titulo {
     font-size: 64px;
     color: #C1EC13;
+}
+
+.subtitulos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#yo{
+    margin-left: -50px;
+}
+
+.informacion{
+    padding-top: 50px;
+    gap: 200px;
+    display: flex;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    padding: auto;
 }
