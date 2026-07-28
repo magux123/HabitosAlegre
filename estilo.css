@@ -54,7 +54,7 @@ a{
 }
 
 a:hover{
-    color: aqua;
+    color: #C1EC13;
 }
 
 ul{
@@ -121,6 +121,7 @@ li{
 
 #yo{
     margin-left: -50px;
+    height: auto;
 }
 
 .informacion{
@@ -147,14 +148,23 @@ li{
     display: flex;
     flex-direction: row;
     width: 40%;
-    height: auto;
+    height: fit-content;
     padding-right: 50px;
 }
 
-.imagen img{
-    width: 500px;
-    height: 600px;
+.imagen article{
+    width: 70vh;
+    height: 90vh;
     padding-right: 50px;
+    background-position: center center;
+    background-image: url(prese.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#servicios{
+    height: auto;
 }
 
 .tarjetas{
@@ -164,20 +174,39 @@ li{
     align-items: center;
 }
 
-article{
-    width: fit-content;
-    height: fit-content;
+.tarjeta{
+    background-position: center center;
+    width: 60vh;
+    height: 90vh;
     background-color: #D8B56A;
     text-align: center;
     align-items: center;
 }
 .grupo{
-    gap: 10px;
+    gap: 40px;
     display: flex;
 }
 
-article img{
-    height:auto;
-    width: 500px;
+#consulta{
+    background-image: url(consultav.png);
     background-size:cover;
+    border-radius: 10px;
+}
+
+#eje{
+    background-image: url(eje.png);
+    background-size:cover;
+    border-radius: 10px;
+}
+
+#taller{
+    background-image: url(talleres.png);
+    background-size:cover;
+    border-radius: 10px;
+}
+
+#capacitacion{
+    background-image: url(capacitacion.png);
+    background-size:cover;
+    border-radius: 10px;
 }
