@@ -161,10 +161,11 @@ li{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 article{
-    width: 50%;
+    width: fit-content;
     height: fit-content;
     background-color: #D8B56A;
     text-align: center;
@@ -173,4 +174,10 @@ article{
 .grupo{
     gap: 10px;
     display: flex;
+}
+
+article img{
+    height:auto;
+    width: 500px;
+    background-size:cover;
 }
