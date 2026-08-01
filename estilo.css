@@ -19,6 +19,7 @@ section{
 .frase{
     min-height:100vh;
     background-image:url("fondo.png");
+    opacity: 100%;
     background-size:cover;
     background-position:center;
     display:flex;
@@ -110,7 +111,8 @@ li{
 
 .titulo {
     font-size: 64px;
-    color: #C1EC13;
+    color: #F6F1E7;
+    background-color: #53006395;
 }
 
 .subtitulos{
@@ -167,46 +169,84 @@ li{
     height: auto;
 }
 
-.tarjetas{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
+.carrusel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.contenedor{
+    width:90%;
+    overflow:hidden;
+}
+
+.slider{
+    display:flex;
+    transition:transform .5s ease;
+    gap: 20px;
 }
 
 .tarjeta{
-    background-position: center center;
-    width: 60vh;
-    height: 90vh;
-    background-color: #D8B56A;
-    text-align: center;
-    align-items: center;
-}
-.grupo{
-    gap: 40px;
-    display: flex;
+    min-width:33%;
+    height:85vh;
+
+    background-size:cover;
+    border-radius:15px;
 }
 
+.btn{
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:24px;
+}
+
+/* Imágenes */
+
 #consulta{
-    background-image: url(consultav.png);
-    background-size:cover;
-    border-radius: 10px;
+    background-image:url(consultav.png);
 }
 
 #eje{
-    background-image: url(eje.png);
-    background-size:cover;
-    border-radius: 10px;
+    background-image:url(eje.png);
 }
 
 #taller{
-    background-image: url(talleres.png);
-    background-size:cover;
-    border-radius: 10px;
+    background-image:url(talleres.png);
 }
 
 #capacitacion{
-    background-image: url(capacitacion.png);
-    background-size:cover;
-    border-radius: 10px;
+    background-image:url(capacitacion.png);
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+    .tarjeta{
+        flex:0 0 280px;
+        height:400px;
+    }
+
+}
+
+/* Celular */
+
+@media(max-width:768px){
+
+    .contenedor{
+        width:95%;
+    }
+
+    .tarjeta{
+        min-width:100%;
+        height:420px;
+    }
+
 }
