@@ -12,6 +12,7 @@ body{
 section{
     height: 100vh;
     background-color: #F5EFE4;
+    padding-left: 2%;
 }
 
 .frase{
@@ -51,12 +52,12 @@ nav{
     padding-right: 15px;
 }
 
-a{
+.secciones a{
     text-decoration: none;
     color:#F6F1E7;  
 }
 
-a:hover{
+.secciones a:hover{
     color: #B88945;
 }
 
@@ -249,8 +250,60 @@ li{
 #redes {
     height: auto;
     padding-top: 2%;
+
 }
 
+#redes a{
+    color: #292929;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Lora", serif;
+}
+
+.primero {
+    padding-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+#instagram{
+    padding-right: 12px;
+    font-size: 30px;
+}
+
+#whatsapp{
+    padding-right: 12px;
+    font-size: 30px;
+}
+
+.segundo{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#tiktok{
+    font-size: 30px;
+    padding-right: 12px;
+    
+}
+
+#mail{
+    font-size: 30px;
+    padding-right: 12px;
+}
+
+#pie{
+    font-size: 20px;
+    background-color: #F5EFE4;
+    padding-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    gap: 10%;
+    padding-bottom: 1%;
+}
 
 /* Tablet */
 
