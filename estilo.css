@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +11,12 @@ body{
 
 section{
     height: 100vh;
-    background-color: #000000;
+    background-color: #F5EFE4;
 }
-
 
 .frase{
     min-height:100vh;
     background-image:url("fondo.png");
-    opacity: 100%;
     background-size:cover;
     background-position:center;
     display:flex;
@@ -37,16 +34,21 @@ nav{
     width: 100%;
     height: 120px;
     display: flex;
-    gap: 40%;
-    background-color: #0000004e;
+    gap: 15%;
 }
 
 .secciones{
+    background-color: #243b2e9b;
+    border-radius: 20px;
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin-top: 3%;
     gap: 50px;
-
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a{
@@ -55,26 +57,22 @@ a{
 }
 
 a:hover{
-    color: #C1EC13;
+    color: #B88945;
 }
 
 ul{
     font-size: 26px;
     list-style: none;
-    width: fit-content;
-    
 }
 
 li{
-    width: max-content;
     color:#F6F1E7;
-    background-color: #53006395;
 }
 
 .frase h2{
     color:#F6F1E7;
-    font-family:'Allura',cursive;
-    font-size:clamp(3rem,7vw,6rem);
+    font-family: "Dancing Script", cursive;
+    font-size:clamp(4rem,8vw,6rem);
     margin-top:265px;
     letter-spacing: 10px;
 }
@@ -85,6 +83,7 @@ li{
     justify-content:center;
     gap:18px;
     margin-bottom:30px;
+    font-family: "Playfair Display", serif;
     color:white;
 }
 
@@ -102,7 +101,7 @@ li{
 }
 
 .frase p{
-    background-color: #53006395;
+    background-color: #243B2E;
     width: fit-content;
     font-size:clamp(1rem,2vw,2rem);
     color:#F6F1E7;
@@ -111,19 +110,23 @@ li{
 
 .titulo {
     font-size: 64px;
-    color: #F6F1E7;
-    background-color: #53006395;
+    background-color: #243B2E;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
 }
 
 .subtitulos{
     display: flex;
     align-items: center;
     gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #F5EFE4;
 }
 
 #yo{
     margin-left: -50px;
-    height: auto;
+    
 }
 
 .informacion{
@@ -141,8 +144,9 @@ li{
 }
 
 .presentacion p{
-    color: #D8B56A;
+    color: #292929;
     font-size: 36px;
+    font-family: "Lora", serif;
     letter-spacing: 5px;
 }
 
@@ -152,6 +156,8 @@ li{
     width: 40%;
     height: fit-content;
     padding-right: 50px;
+    border-radius: 20px;
+    box-shadow: -30px 20px #243B2E;
 }
 
 .imagen article{
@@ -167,6 +173,7 @@ li{
 
 #servicios{
     height: auto;
+    padding-top: 5%;
 }
 
 .carrusel{
@@ -192,7 +199,7 @@ li{
 
 .tarjeta{
     min-width:33%;
-    height:85vh;
+    height:80vh;
 
     background-size:cover;
     border-radius:15px;
@@ -224,6 +231,26 @@ li{
 #capacitacion{
     background-image:url(capacitacion.png);
 }
+
+#horarios{
+    height: auto;
+    padding-top: 5%;
+}
+
+#horarios p{
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #292929;
+    font-size: 36px;
+    font-family: "Lora", serif;
+    letter-spacing: 5px;
+}
+
+#redes {
+    height: auto;
+    padding-top: 2%;
+}
+
 
 /* Tablet */
 
