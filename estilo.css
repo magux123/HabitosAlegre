@@ -111,10 +111,10 @@ li{
 
 .titulo {
     font-size: 64px;
-    background-color: #243B2E;
+    background-color: #087f91a3;
     padding-left: 15px;
     padding-right: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .subtitulos{
@@ -122,7 +122,7 @@ li{
     align-items: center;
     gap: 20px;
     font-family: "Montserrat", sans-serif;
-    color: #F5EFE4;
+    color: #123E50;
 }
 
 #yo{
@@ -145,7 +145,7 @@ li{
 }
 
 .presentacion p{
-    color: #292929;
+    color: #000000;
     font-size: 36px;
     font-family: "Lora", serif;
     letter-spacing: 5px;
@@ -156,7 +156,6 @@ li{
     flex-direction: row;
     width: 40%;
     height: fit-content;
-    padding-right: 50px;
     border-radius: 20px;
     box-shadow: -30px 20px #243B2E;
 }
@@ -164,7 +163,6 @@ li{
 .imagen article{
     width: 70vh;
     height: 90vh;
-    padding-right: 50px;
     background-position: center center;
     background-image: url(prese.png);
     background-size: cover;
@@ -218,15 +216,15 @@ li{
 /* Imágenes */
 
 #consulta{
-    background-image:url(consultav.png);
+    background-image:url(Consultas\ y\ acompañamiento\ personalizado.png);
 }
 
 #eje{
-    background-image:url(eje.png);
+    background-image:url(Programa\ Volver\ al\ Eje.png);
 }
 
 #taller{
-    background-image:url(talleres.png);
+    background-image:url(Talleres_\ Aprendé\ y\ transformá.png);
 }
 
 #capacitacion{
