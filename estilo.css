@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav{
 }
 
 .secciones{
-    background-color: #243b2e9b;
+    background-color: #087f915c;
     border-radius: 20px;
     text-decoration: none;
     display: flex;
@@ -58,7 +58,7 @@ nav{
 }
 
 .secciones a:hover{
-    color: #B88945;
+    color: #E5A849;
 }
 
 ul{
@@ -102,7 +102,7 @@ li{
 }
 
 .frase p{
-    background-color: #243B2E;
+    background-color: #087f91ad;
     width: fit-content;
     font-size:clamp(1rem,2vw,2rem);
     color:#F6F1E7;
@@ -144,6 +144,14 @@ li{
     gap: 50px;
 }
 
+.info {
+    background-color: #087f9171;
+    padding-left: 2%;
+    padding-top: 2% ;
+    text-align: left;
+    border-radius: 8%;
+}
+
 .presentacion p{
     color: #000000;
     font-size: 36px;
@@ -157,14 +165,14 @@ li{
     width: 40%;
     height: fit-content;
     border-radius: 20px;
-    box-shadow: -30px 20px #243B2E;
+    box-shadow: -30px 20px #087F91;
 }
 
 .imagen article{
     width: 70vh;
     height: 90vh;
     background-position: center center;
-    background-image: url(prese.png);
+    background-image: url(Infografía\ de\ bienestar\ y\ hábitos\ saludables.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
